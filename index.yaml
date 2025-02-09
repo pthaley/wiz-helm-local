@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   wiz-kubernetes-integration:
   - apiVersion: v2
-    created: "2025-02-08T22:07:12.267451023Z"
+    created: "2025-02-09T02:03:58.950776999Z"
     dependencies:
     - condition: wiz-kubernetes-connector.enabled
       name: wiz-kubernetes-connector
@@ -23,4 +23,4 @@ entries:
     urls:
     - charts/wiz-kubernetes-integration-0.2.58.tgz
     version: 0.2.58
-generated: "2025-02-08T22:07:12.262678786Z"
+generated: "2025-02-09T02:03:58.944614963Z"
