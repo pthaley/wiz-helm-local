@@ -1,9 +1,7 @@
 global:
   wizApiToken:
-    clientId: "wgxq75hrlndpbktx3eupevf2xztxdbzfs3mvqvuu7inin4olmprgm"
-    clientToken: "itvTyc1NVG5voCryQBwjoWdgAR2RKvrwyF7lDQAbzRE5qmKpKZfn63r0Bks8iy2O"
     secret:
-      create: true
+      create: false
       name: wiz-api-token
 wiz-kubernetes-connector:
   autoCreateConnector:
@@ -21,3 +19,7 @@ wiz-sensor:
   imagePullSecret:
     create: false
     name: "sensor-image-pull"
+  wizApiToken:
+    secret:
+      create: false
+      name: wiz-api-token
