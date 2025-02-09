@@ -1,6 +1,6 @@
 global:
   wizApiToken:
-    clientId: ""
+    clientId: "wgxq75hrlndpbktx3eupevf2xztxdbzfs3mvqvuu7inin4olmprgm"
     secret:
       create: false
       name: wiz-api-token
