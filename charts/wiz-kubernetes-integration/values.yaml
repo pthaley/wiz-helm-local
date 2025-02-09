@@ -1,10 +1,9 @@
 global:
   wizApiToken:
+    clientId: ""
     secret:
       create: false
       name: wiz-api-token
-      clientId: ""
-      clientToken: ""
 wiz-kubernetes-connector:
   autoCreateConnector:
     clusterFlavor: "Kubernetes"
