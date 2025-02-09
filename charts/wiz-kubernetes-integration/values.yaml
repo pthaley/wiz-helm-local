@@ -19,7 +19,3 @@ wiz-sensor:
   imagePullSecret:
     create: false
     name: "sensor-image-pull"
-  wizApiToken:
-    secret:
-      create: false
-      name: wiz-api-token
