@@ -2,7 +2,7 @@ global:
   wizApiToken:
     secret:
       create: false
-      name: wiz-api-token
+      name: "wiz-api-token"
 wiz-kubernetes-connector:
   autoCreateConnector:
     clusterFlavor: "Kubernetes"
