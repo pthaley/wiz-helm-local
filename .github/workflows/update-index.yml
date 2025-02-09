@@ -2,6 +2,7 @@
 name: Update Index
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths:
@@ -21,7 +22,7 @@ jobs:
         run: |
           helm repo index .
           git config --global user.email "pthaley@gmail.com"
-          git config --global user.name "Pat Haley
+          git config --global user.name "Pat Haley"
           git add index.yaml
           git commit -m "Update chart index"
           git push
