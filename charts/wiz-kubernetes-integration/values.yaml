@@ -17,5 +17,5 @@ wiz-admission-controller:
 wiz-sensor:
   enabled: true
   imagePullSecret:
-  create: false
-  name: "sensor-image-pull"
+    create: false
+    name: "sensor-image-pull"
